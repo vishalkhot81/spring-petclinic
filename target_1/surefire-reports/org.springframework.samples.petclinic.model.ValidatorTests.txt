@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: org.springframework.samples.petclinic.model.ValidatorTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.189 s <<< FAILURE! - in org.springframework.samples.petclinic.model.ValidatorTests
+shouldNotValidateWhenFirstNameEmpty  Time elapsed: 6.093 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+Expecting:
+ <"firstName">
+to be equal to:
+ <"firstName123">
+but was not.
+	at org.springframework.samples.petclinic.model.ValidatorTests.shouldNotValidateWhenFirstNameEmpty(ValidatorTests.java:57)
+

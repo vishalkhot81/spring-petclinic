@@ -149,4 +149,9 @@ public class Owner extends Person {
                 .append("firstName", this.getFirstName()).append("address", this.address)
                 .append("city", this.city).append("telephone", this.telephone).toString();
     }
+	
+	public String simpleMessage(){
+		System.out.println("This is just to return  sample string");
+		return "Returning sample screen";
+	}
 }
